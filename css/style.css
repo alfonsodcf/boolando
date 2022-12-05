@@ -1,6 +1,16 @@
-/*reset */
+/* reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 } 
+/* utility */
+.debug {
+    border: 1px solid black;
+    height: 300px;
+}
+/* corpo*/
+main{
+    width: 80%;
+    margin: 30px auto;
+}
