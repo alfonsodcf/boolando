@@ -6,13 +6,6 @@
 } 
 
 
-/* utility */
-.debug{
-    border: 1px solid black;
-    height: 300px;
-}
-
-
 /* corpo*/
 main{
     width: 80%;
@@ -24,4 +17,9 @@ main{
 .card{
   width: calc(100% / 3);
   display: inline-block;
+  font-size: 14px;
+  padding: 20px;
+}
+.card-image img{
+    width: 100%;
 }
