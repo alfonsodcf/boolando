@@ -20,12 +20,15 @@ main{
   font-size: 14px;
   padding: 20px;
 }
+
 .card-image{
     position: relative;
 }
+
 .card-image img{
     width: 100%;
 }
+
 .heart{
     position: absolute;
     top: 25px;
@@ -34,17 +37,32 @@ main{
     text-align: center;
     padding: 3px 7px;
 }
+
 .label {
     position:absolute;
     bottom: 25px;
     left: 0px;
     color: white;
 }
+
 .card-discount{
     background-color: red;
     padding: 4px 6px;
 }
+
 .card-tag{
     background-color: green;
     padding: 4px 6px;
+}
+
+.overlay{
+    display: none;
+    
+}
+
+.card-image:hover .overlay{
+    display:block;
+    position:absolute;
+    left: 0;
+    top: 0;
 }
